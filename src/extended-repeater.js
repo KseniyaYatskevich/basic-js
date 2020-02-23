@@ -29,12 +29,9 @@ module.exports = function repeater(str, options) {
         }
         separatorNew = separator;
     } 
-    console.log(separatorNew)
     if(repeatArray.length !== 0) {
         repeatStr = repeatArray.fill(strNew+additionStr).join(`${separatorNew}`);
     }
-    console.log(separatorNew)
-    console.log(additionStr, 11111)
     return repeatStr;
 };
   
